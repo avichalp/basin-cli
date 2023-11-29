@@ -1,5 +1,8 @@
 name: Generate binaries
 on:
+  push:
+    branches:
+      - main
   pull_request:
 permissions:
   contents: write

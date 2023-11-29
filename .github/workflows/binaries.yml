@@ -1,9 +1,8 @@
 name: Generate binaries
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  release:
+    types:
+      - created
 permissions:
   contents: write
 jobs:
